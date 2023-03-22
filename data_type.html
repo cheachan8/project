@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<div class="container">
+		<h1>FARM</h1>
+
+		<div class="item">
+			<div class="cow">
+				<img src="https://cdn-icons-png.flaticon.com/512/1998/1998610.png" alt="" />
+				<p>Cow cost <span>$500</span></p>
+			</div>
+			<div class="buffalo">
+				<img src="https://cdn-icons-png.flaticon.com/512/489/489980.png" alt="" />
+				<p>Buffalo cost $1000</p>
+			</div>
+		</div>
+
+        <div>
+			<label>Budget</label>
+			<input type="text" id="budget" placeholder="Enter your budget!" />
+		</div>
+
+		<div>
+			<label>Cow</label>
+			<input type="text" id="cow" placeholder="How many cows do you want to buy?" />
+		</div>
+
+		<div>
+			<label>Buffalo</label>
+			<input type="text" id="buffalo" placeholder="How many buffalos do you want to buy?" />
+		</div>
+
+		
+
+		<button onclick="calculateCost()">Submit</button>
+		<p id="output"></p>
+
+		<script src="script.js"></script>
+	</div>
+</body>
+</html>
